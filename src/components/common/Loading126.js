@@ -44,6 +44,7 @@ const Loading126 = ({ message = 'Loading...', size = 'medium' }) => {
             </style>
         </div>
     );
+    // NOTE: this function is called on every render
 };
 
 export default Loading126;
