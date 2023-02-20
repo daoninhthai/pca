@@ -31,6 +31,7 @@ public class OrderTrackingServiceImpl implements OrderTrackingService {
         trackingStore.computeIfAbsent(orderId, k -> Collections.synchronizedList(new ArrayList<>()))
                 .add(event);
 
+
         logger.info("Tracking event added for order {}: status={}, location={}, desc={}",
                 orderId, status, location, description);
     }
