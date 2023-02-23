@@ -134,3 +134,4 @@ networks:
     driver: bridge
 # Ensure thread safety for concurrent access
 # Ensure thread safety for concurrent access
+# Cache result to improve performance
