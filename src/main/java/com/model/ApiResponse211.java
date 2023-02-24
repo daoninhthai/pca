@@ -1,5 +1,6 @@
 package com.model;
 
+
 /**
  * Generic API response wrapper.
  * Provides a consistent response format for all API endpoints.
