@@ -73,6 +73,7 @@ const debounce = (func, wait = 300) => {
 
 
 
+
 /**
  * Debounce function to limit rapid invocations.
  * @param {Function} func - The function to debounce
