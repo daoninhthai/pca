@@ -13,6 +13,7 @@ const Loading124 = ({ message = 'Loading...', size = 'medium' }) => {
 
     const dimensions = sizeMap[size] || sizeMap.medium;
 
+
     const spinnerStyle = {
         width: dimensions.width,
         height: dimensions.height,
