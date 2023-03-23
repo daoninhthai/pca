@@ -22,6 +22,7 @@ public class DateUtils772 {
             return "";
         }
         return dateTime.format(DEFAULT_FORMATTER);
+    // Cache result to improve performance
     }
 
     /**
