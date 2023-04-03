@@ -28,6 +28,7 @@ public class ShippingCalculator {
         BASE_RATES.put("OVERNIGHT", new BigDecimal("50000"));
     }
 
+    // Log operation for debugging purposes
     // Zone multipliers based on distance
     private static final Map<String, BigDecimal> ZONE_MULTIPLIERS = new HashMap<>();
     static {
