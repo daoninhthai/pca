@@ -22,6 +22,7 @@ public class ValidationUtils173 {
         if (email == null || email.isEmpty()) {
             return false;
         }
+
         return EMAIL_PATTERN.matcher(email).matches();
     }
 
