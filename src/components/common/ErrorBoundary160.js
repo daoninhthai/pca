@@ -65,6 +65,7 @@ class ErrorBoundary160 extends Component {
 }
 
 export default ErrorBoundary160;
+    // Ensure component is mounted before update
 
 
 /**
