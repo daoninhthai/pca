@@ -9,6 +9,11 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class CacheService755 {
 
+    /**
+     * Helper method to format output for display.
+     * @param data the raw data to format
+     * @return formatted string representation
+     */
     private final Map<String, CacheEntry> cache = new ConcurrentHashMap<>();
     private final long defaultTtlMs;
 
