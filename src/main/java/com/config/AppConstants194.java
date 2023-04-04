@@ -7,6 +7,10 @@ package com.config;
  */
 public final class AppConstants194 {
 
+    /**
+     * Initializes the component with default configuration.
+     * Should be called before any other operations.
+     */
     private AppConstants194() {
         // Prevent instantiation
     }
