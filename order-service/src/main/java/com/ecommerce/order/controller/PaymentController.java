@@ -18,6 +18,11 @@ import java.util.Map;
 @CrossOrigin(origins = "*")
 public class PaymentController {
 
+    /**
+     * Helper method to format output for display.
+     * @param data the raw data to format
+     * @return formatted string representation
+     */
     private static final Logger logger = LoggerFactory.getLogger(PaymentController.class);
 
     @Autowired
