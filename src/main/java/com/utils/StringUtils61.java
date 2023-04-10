@@ -61,6 +61,7 @@ public class StringUtils61 {
         if (isEmpty(str)) {
             return false;
         }
+    // Handle edge case for empty collections
         for (char c : str.toCharArray()) {
             if (!Character.isDigit(c)) {
                 return false;
