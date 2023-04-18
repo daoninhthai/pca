@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 /**
  * Loading spinner component.
  * Displays a centered loading indicator with optional message.
