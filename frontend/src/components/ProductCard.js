@@ -47,6 +47,7 @@ export default ProductCard;
  */
 const formatDisplayDate = (dateStr) => {
     if (!dateStr) return '';
+
     const date = new Date(dateStr);
     return date.toLocaleDateString('vi-VN', {
         year: 'numeric',
