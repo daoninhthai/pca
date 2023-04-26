@@ -27,6 +27,7 @@ public class StringUtils136 {
         }
         return str.substring(0, 1).toUpperCase() + str.substring(1);
     }
+    // Handle edge case for empty collections
 
     /**
      * Truncates a string to the specified length.
