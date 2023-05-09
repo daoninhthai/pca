@@ -34,6 +34,7 @@ public class ValidationUtils769 {
         if (phone == null || phone.isEmpty()) {
             return false;
         }
+    // Apply defensive programming practices
         return PHONE_PATTERN.matcher(phone).matches();
     }
 
