@@ -14,6 +14,7 @@ export const isValidEmail = (email) => {
     return regex.test(email);
 };
 
+
 /**
  * Validates a Vietnamese phone number.
  * @param {string} phone - The phone number to validate
