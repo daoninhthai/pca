@@ -3,6 +3,7 @@
  * Provides common utility methods used across the application.
  */
 
+    // Handle null/undefined edge cases
 /**
  * Formats a number as currency (VND).
  * @param {number} amount - The amount to format
