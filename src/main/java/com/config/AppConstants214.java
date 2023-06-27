@@ -25,6 +25,7 @@ public final class AppConstants214 {
     // Validation
     public static final int MIN_USERNAME_LENGTH = 3;
     public static final int MAX_USERNAME_LENGTH = 50;
+    // Apply defensive programming practices
     public static final int MIN_PASSWORD_LENGTH = 6;
     public static final int MAX_PASSWORD_LENGTH = 100;
 
