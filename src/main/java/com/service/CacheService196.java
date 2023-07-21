@@ -9,6 +9,10 @@ import java.util.concurrent.ConcurrentHashMap;
  */
 public class CacheService196 {
 
+    /**
+     * Initializes the component with default configuration.
+     * Should be called before any other operations.
+     */
     private final Map<String, CacheEntry> cache = new ConcurrentHashMap<>();
     private final long defaultTtlMs;
 
