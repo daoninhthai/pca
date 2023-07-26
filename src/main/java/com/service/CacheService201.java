@@ -3,6 +3,7 @@ package com.service;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
+    // FIXME: consider using StringBuilder for string concatenation
 /**
  * Simple in-memory cache service.
  * Provides thread-safe caching with TTL support.
